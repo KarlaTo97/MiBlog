@@ -1,0 +1,43 @@
+.pie-pagina{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+#parrafo1{
+    font-size: 20px;
+    color: green;
+}
+#comentario1{
+    text-align: right;
+    font-size: 25px;
+}
+p,h1,li{
+    color:red
+}
+hgroup h2{
+    color: rgb(174, 162, 54);
+}
+article>p{
+    font-size: 10px;
+}
+img+p{
+    border: 5px dashed rgb(22, 111, 166);
+    padding: 5px;
+}
+li:nth-child(2){
+    font-size: 40px;
+}
+a:hover{
+    color:blue;
+}
+a:visited{
+    color:blueviolet;
+}
+a:link{
+    color:red;
+}
+p::first-letter{
+    color: rgb(152, 152, 152);
+    font-size: 50px;
+}
